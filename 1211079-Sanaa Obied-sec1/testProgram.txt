@@ -1,0 +1,130 @@
+# include <iostream>;
+# include <mathh>;
+# include <string>;
+# include <vector>;
+# include <fstream>;
+# include <iomanip>;
+
+const int MAX = 100;
+const float PI = 3.14;
+const char NEWLINE=7.88;
+const int FACTOR = 10;
+
+var int count, result;
+var char status;
+var int x;
+var int a, b, sum, product;
+var float radius, area, average;
+var float string ,message, fileName;
+var float vegggg, numbers;
+
+function calculateSum;
+newb
+    cin >> a;
+    cin >> b;
+    sum := a + b;
+    cout << sum;
+endb;
+
+function calculateArea;
+newb
+    cin >> radius;
+    area := PI * radius * radius;
+    cout << area;
+endb;
+
+function checkCondition;
+newb
+    cin >> x;
+    if (x < MAX) 
+        cout << Withinrange
+    else 
+    if (x > a)
+        sum := sum + x;
+endb;
+
+function calculateProduct;
+newb
+    cin >> a;
+    cin >> b;
+    product := a * b;
+    cout << product;
+endb;
+
+function calculateAverage;
+newb
+    intuu  := 0;
+     size := 0;
+    newb
+        total := total + (i + 1);
+        size := size + 1;
+    endb;
+    average := total / size;
+    cout << average;
+endb;
+
+function printMessage;
+newb
+    cin >> message;
+    cout << message;
+endb;
+
+function writeToFile;
+newb
+    cin >> fileName;
+    if (count = 0)
+        cin >> NEWLINE
+    else
+    newb
+        cout << UnableToOpenFile;
+    endb;
+endb;
+
+
+newb
+    call calculateSum;
+    call calculateArea;
+    call calculateProduct;
+    call calculateAverage;
+    call checkCondition;
+    call printMessage;
+    call writeToFile;
+    while (count > 0)
+    newb
+        count := count - 1;
+        if (count = 0)
+            cout << Done;
+    endb;
+     newb
+cin >> numberSanaa ;
+while ( index < line )
+    newb
+    sum := sum + sanaa ;
+    count := count + 1 ;
+     cin >> sanaa ;
+     cout << 100 ;
+    endb;
+while ( index < line )
+    newb
+    sum := sum + numbers ;
+    count := count + 1 ;
+     cin >> numbers ;
+     cout << 100 ;
+    endb;
+  endb;
+  newb
+  repeat 
+    sum := sum div numbers ;
+repeat 
+repeat 
+repeat 
+    sum := sum + numbers ;
+until index < line;
+    sum := sum + sanaa ;
+until index < line;
+    sum := sum + sanaa ;
+until entity < line;
+until entity < line;
+endb;
+endb
+exit
